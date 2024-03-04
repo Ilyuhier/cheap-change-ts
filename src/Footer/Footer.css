@@ -1,0 +1,38 @@
+.footer{
+  display: flex;
+  background: #F6F7FF;
+  justify-content: space-around;
+  padding: 4%;
+}
+.adress-block{
+  max-width: 16%;
+}
+.footer-button-list ul{
+  list-style-type: none;
+}
+.footer-button-list li{
+  margin-bottom: 15%;
+}
+.footer-button-list a{
+  text-decoration: none;
+  color: #707C87;
+}
+.footer-button-list a:hover{
+  color: #2C36F2
+}
+.phone-block{
+  display: flex;
+}
+.phone-block img{
+  height: 16px;
+  margin-right: 5%;
+}
+.phone-block span{
+  font-weight: 700;
+}
+.icons-list{
+  width: 10%;
+}
+.icons-list img{
+  margin-left: 10%;
+}

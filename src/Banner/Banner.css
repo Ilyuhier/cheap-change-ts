@@ -1,0 +1,34 @@
+.banner{
+  background-image: url(../img/BannerBG.png);
+  background-position: 0% 50%;
+  background-size: 100%;
+  height: 400%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.banner-container{
+  margin: 7%;
+}
+.banner-info-block h1{
+  font-size: 54px;
+  
+}
+.banner-info-block p{
+  font-size: 20px;
+}
+.banner-button{
+  display: flex;
+  background: #F6F7FF;
+  color: #707C87;
+  border-radius: 4px;
+  width: 234px;
+  height: 53px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.card-img{
+  width: 341px;
+  height: 216px;
+}

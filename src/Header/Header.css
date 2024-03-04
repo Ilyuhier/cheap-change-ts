@@ -1,0 +1,37 @@
+
+
+.header{
+  display: flex;
+  background-color: #F6F7FF;
+  justify-content: space-around;
+}
+.header ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+.header li{
+  display: inline;
+}
+.header a {
+  text-decoration: none;
+  color: #707C87;
+}
+.header a:hover{
+  color: #2C36F2
+}
+.header-button{
+  margin: 1% 6%; 
+}
+.header-account{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30%;
+}
+.account-img{
+  scale: 100%;
+  margin-right: 3%;
+}
+
