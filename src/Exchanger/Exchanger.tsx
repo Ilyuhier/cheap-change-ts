@@ -105,7 +105,9 @@ export default function Exchanger(){
             maxDate={dayjs()}
           />
           <div className='save-button' >
-            <a href='#' onClick={()=>saveResult()}>Зберегти результат</a>
+            <a href='#' onClick={(e)=>{
+              e.preventDefault() 
+              saveResult()}}>Зберегти результат</a>
           </div>
         </div>
       </div>
